@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner section */
+
+.banner {
+    position: relative;
+    width: 1600px;
+    height: 810px;
+    margin: 0 auto;
+}
+
+.text-area {
+    text-align: right;
+    margin-top: -650px;
+    color: white;
+    margin-right: 230px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 25px;
+    margin-left: 840px;
+}
+
+.t-caption {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 870px;
+    margin-bottom: 30px;
+}
+
+.btn-contact {
+    padding: 20px 25px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+/* main section */
+
+/* blog 1 */
+
+.blog1 {
+    display: flex;
+    align-items: center;
+    margin: 100px auto;
+    width: 1080px;
+    height: 725px;
+
+}
+
+.content {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.blog-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.blog-description {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px
+}
+
+.checkmark1,
+.checkmark2,
+.checkmark3,
+.checkmark4,
+.checkmark5 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.icon p {
+    margin-left: 10px
+}
+
+.checkmark {
+    width: 20px;
+}
+
+/* blog 2 section */
+
+.blog2-img {
+    width: 950px;
+
+}
+
+.sb-checkmark {
+    width: 30px;
+}
+
+.sb-checkmark1,
+.sb-checkmark2,
+.sb-checkmark3,
+.sb-checkmark4,
+.sb-checkmark5 {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 18px;
+
+}
+
+.blog2 {
+    display: flex;
+    align-items: center;
+    width: 1600px;
+    height: 725px;
+    margin: 15px auto;
+    background-color: #279eff2a;
+}
+
+.sblog-checkmarks {
+    margin-left: 100px;
+}
+
+.blog2-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+/* my plan section */
+
+.webdeb,
+.java,
+.smock,
+.ecom {
+    text-align: center;
+}
+
+.plan-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 100px 0 80px 0;
+}
+
+.topic {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.web-title,
+.web-sub,
+.java-title,
+.java-sub,
+.smock-title,
+.cmock-sub,
+.ecom-title,
+.ecom-sub {
+    margin: 15px 0;
+}
+
+.topic h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.topic p {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+/* linear gradient section */
+
+main .call-sec{
+    background-image: url('./images/watch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.call-text {
+    text-align: left;
+    width: 1200px;
+    height: 300px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 80%);
+    margin-bottom: 50px;
+    margin: 200px auto;
+    border-radius: 8px;
+
+}
+
+.call-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    padding: 80px 0 20px 50px;
+
+
+}
+
+.call-btn {
+    background-color: white;
+    padding: 20px 36px;
+    border: 0;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+/* footer section */
+
+.footer {
+    width: 1600px;
+    height: 450px;
+    background-color: #151414;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+.footer-text {
+    color: white;
+    width: 485px;
+    height: 320px;
+    
+}
+
+.footer-text h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-text p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+
+.footer-input h3 {
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 25px;
+
+
+}
+
+.footer-input{
+    margin-left: 400px;
+    
+}
+
+.ft-input{
+    padding: 21px 150px 21px 21px;
+    background-color: #151414;
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.btn-input{
+    display: block;
+    width: 170.11px;
+    height: 64px;
+    background: #005FAC;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
